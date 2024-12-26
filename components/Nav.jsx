@@ -163,11 +163,7 @@ const Nav = () => {
             </div>
 
             
-            <Link
-              href="/contact"
-              className="text-white font-grotesque text-lg tracking-widest" >
-              Join
-            </Link>
+           
             <Link
               href="/infogram"
               className="text-white font-grotesque text-lg tracking-widest" >
@@ -180,6 +176,12 @@ const Nav = () => {
               Schemes
             </Link>
 
+             <Link
+              href="/contact"
+              className="text-white font-grotesque text-lg tracking-widest" >
+              Join Us
+            </Link>
+            
             <Link
               href="/contactus"
               className="text-white font-grotesque text-lg tracking-widest"
@@ -338,11 +340,7 @@ const Nav = () => {
                 )}
               </div>
               
-
-              <Link href="/contact" className="text-white self-center">
-                Join
-              </Link>
-              
+                         
               <Link href="/infogram" className="text-white self-center">
               Infogram
               </Link>
@@ -350,6 +348,10 @@ const Nav = () => {
               <Link
                 href="/scheme"  className="text-white self-center">
                 Schemes
+              </Link>
+              
+               <Link href="/contact" className="text-white self-center">
+                Join Us
               </Link>
               
               <Link

@@ -6,7 +6,7 @@ const SecondaryHero = ({ bgImage, text, paragraph, textStyle, paragraphStyle }) 
       className="relative w-full h-[95vh] bg-cover bg-center animate-move md:animate-moveDesktop"
       style={{
         backgroundImage: `url(${bgImage})`,
-        backgroundSize: "110%",
+        backgroundSize: "75.1%",
         backgroundRepeat: "no-repeat",
       }}
     >

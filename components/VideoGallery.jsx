@@ -38,8 +38,10 @@ const VideoGallery = ({ videos }) => {
                 </svg>
               </div>
             </div>
-            <h3 className="text-lg font-semibold">{video.title}</h3>
-            <p className="text-sm">{video.description}</p>
+          <h3 className="text-sm sm:text-sm md:text-xs lg:text-sm  text-black z-50 opacity-100">{video.title}</h3>
+
+
+            {/* <p className="text-sm">{video.description}</p> */}
           </div>
         ))}
       </div>
@@ -53,7 +55,7 @@ const VideoGallery = ({ videos }) => {
             className="bg-white p-4 rounded-lg max-w-4xl w-full"
             onClick={(e) => e.stopPropagation()}
           >
-            <h3 className="text-2xl font-bold mb-4">{selectedVideo.title}</h3>
+            <h3 className="text-2xl font-bold mb-4 text-black z-50 opacity-100">{selectedVideo.title}</h3>
             <div className="relative pb-[56.25%]">
               <iframe
                 className="absolute top-0 left-0 w-full h-full"

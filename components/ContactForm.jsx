@@ -43,8 +43,8 @@ const ContactForm = () => {
 
   return (
     <div>
-      {isSubmitted && <Alert onClose={() => setIsSubmitted(false)} />} {/* Conditionally render Alert */}
-      <form className="w-full" onSubmit={formik.handleSubmit}>
+   
+      <form className="w-full relative" onSubmit={formik.handleSubmit}>
         {/* First Name */}
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -192,6 +192,13 @@ const ContactForm = () => {
           </div>
         </div>
 
+
+        {isSubmitted && (
+    <div className="absolute top-25">
+      <Alert onClose={() => setIsSubmitted(false)} />
+    </div>
+  )} {/* Conditionally render Alert */}
+
         {/* Submit Button */}
         <button
           type="submit"
@@ -199,6 +206,17 @@ const ContactForm = () => {
         >
           Submit
         </button>
+          {/* Image Added Here */}
+          <div className="flex justify-center items-center mt-5">
+                                <img
+                                    src="/images/QRdummy.jpeg"  // Replace with the path to your image
+                                    alt="Description of image"
+                                    style={{ width: '250px', height: '250px' }}
+                                    className="object-contain rounded-lg mt-5"
+                                />
+                                 </div>
+
+                                 
       </form>
     </div>
   );

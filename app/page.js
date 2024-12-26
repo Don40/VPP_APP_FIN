@@ -28,7 +28,7 @@ const Home = () => {
       <Nav />
 
       <SecondaryHero
-        bgImage="/images/bg-image.webp"
+        bgImage="/images/vpplogo.webp"
         text="MESSAGE FROM THE VOICE OF THE PEOPLE PARTY!"
         paragraph={`&nbsp;&nbsp;&nbsp;&nbsp;Our aim is to bring a real and complete change in the governance of the state with a strong, clean 
         and decisive leadership and also an all round and inclusive development. <br>
