@@ -7,7 +7,7 @@ const Header = ({toggleSidebar, isOpen}) => {
         <button onClick={toggleSidebar} className="focus:outline-none">
           {isOpen ? <HiOutlineX className="h-6 w-6" /> : <HiOutlineMenu className="h-6 w-6" />}
         </button>
-        <span className="text-xl font-semibold">Dashboard</span>
+        <span className="text-xl font-semibold">Voice of The People Party - Dashboard</span>
     </header>
   );
 };

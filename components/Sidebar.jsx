@@ -12,7 +12,7 @@ import { SlCalender } from "react-icons/sl";
 
 const Sidebar = ({ toggleSidebar, isOpen, onMenuItemClick, activeContent }) => {
   const menuItems = [
-    { id: 'prayer', label: 'Prayer Requests', icon: <FaPrayingHands /> },
+    { id: 'prayer', label: 'Main Page', icon: <FaPrayingHands /> },
     { id: 'notifications', label: 'Notifications', icon: <IoMdNotifications /> },
     { id: 'services', label: 'Services', icon: <FaHouseFire /> },
     { id: 'events', label: 'Events', icon: <SlCalender /> },
